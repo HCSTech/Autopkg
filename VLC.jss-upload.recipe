@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads VLC</string>
+	<string>Uses parent pkg recipe to download latest VLC and import it into the JSS.</string>
 	<key>Identifier</key>
-	<string>com.hcs.VLC</string>
+    <string>com.hcs.VLC</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Applications</string>
+        <string>Applications</string>
 		<key>NAME</key>
 		<string>VLC</string>
 	</dict>
