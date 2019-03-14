@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads FlashPlayer</string>
 	<key>Identifier</key>
-	<string>com.hcs.FlashPlayer</string>
+	<string>com.hcs.jss-upload.AdobeFlashPlayer</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
