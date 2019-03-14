@@ -11,12 +11,12 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>NAME</key>
-		<string>FlashPlayer</string>
+		<string>AdobeFlashPlayer</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.pkg.recipe</string>
+	<string>com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.download.recipe</string>
 	<key>Process</key>
 	<array>
 		<dict>
