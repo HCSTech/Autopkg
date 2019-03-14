@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.download.recipe</string>
+	<string>com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.pkg.recipe</string>
 	<key>Process</key>
 	<array>
 		<dict>
