@@ -16,7 +16,7 @@
       <key>MinimumVersion</key>
       <string>0.2.0</string>
       <key>ParentRecipe</key>
-      <string>com.github.autopkg.download.FlashPlayer</string>
+      <string>com.github.autopkg.pkg.FlashPlayer</string>
       <key>Process</key>
       <array>
          <dict>
@@ -26,6 +26,8 @@
                <string>%CATEGORY%</string>
                <key>prod_name</key>
                <string>%NAME%</string>
+               <key>pkg_path</key>
+                <string>%pkg_path%</string>
             </dict>
             <key>Processor</key>
             <string>JSSImporter</string>
