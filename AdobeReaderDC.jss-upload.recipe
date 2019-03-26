@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.novaksam.pkg.AdobeAcrobatReaderDC</string>
+	<string>com.github.autopkg.pkg.AdobeReaderDC</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -26,6 +26,10 @@
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+				<key>source_pkg</key>
+				<string>%pkg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
