@@ -16,7 +16,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>ccom.github.rtrouton.pkg.microsoftteams</string>
+    <string>com.github.rtrouton.pkg.microsoftteams</string>
     <key>Process</key>
     <array>
         <dict>
