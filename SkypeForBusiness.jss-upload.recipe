@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Uses parent pkg recipe to download latest Skype for business and import it into the JSS.</string>
+    <key>Identifier</key>
+    <string>com.hcs.jss-upload.SkypeForBusiness</string>
+    <key>Input</key>
+    <dict>
+        <key>CATEGORY</key>
+        <string>Applications</string>
+        <key>NAME</key>
+        <string>Skype For Business</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>1.3.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.rtrouton.pkg.skypeforbusiness365</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>category</key>
+                <string>%CATEGORY%</string>
+                <key>Applications</key>
+                <string>%NAME%</string>
+                <key>prod_name</key>
+                <string>%pkg_path%</string>
+            </dict>
+            <key>Processor</key>
+            <string>JSSImporter</string>
+        </dict>
+    </array>
+</dict>
+</plist>
