@@ -11,7 +11,7 @@
         <key>CATEGORY</key>
         <string>Applications</string>
         <key>NAME</key>
-        <string>Skype</string>
+        <string>Zoom</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
