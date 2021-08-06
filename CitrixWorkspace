@@ -26,7 +26,7 @@
                 <string>%CATEGORY%</string>
                 <key>Applications</key>
                 <string>%NAME%</string>
-                <key>Citrix Workspace</key>
+                <key>prod_name</key>
                 <string>%pkg_path%</string>
             </dict>
             <key>Processor</key>
