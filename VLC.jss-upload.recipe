@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads VLC Universal Client</string>
+	<string>Downloads VLC Universal</string>
 	<key>Identifier</key>
-	<string>com.hcs.jss-upload.VLCUniversalClient</string>
+	<string>com.hcs.jss-upload.VLCUniversal</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -14,22 +14,31 @@
 		<string>VLC</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.4.0</string>
+	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.apizz.pkg.VLCUniversal.pkg.recipe</string>
-	<key>Process</key>
-	<array>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>category</key>
-				<string>%CATEGORY%</string>
-				<key>prod_name</key>
-				<string>%NAME%</string>
-				<key>pkg_path</key>
-                		<string>%pkg_path%</string>
-			</dict>
-			<key>Processor</key>
+	<string>com.github.apizz.download.VLCUniversal</string>
+<key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>bundleid</key>
+                <string>%pkg_id%</string>
+                <key>version</key>
+                <string>%version%</string>
+            </dict>
+            <key>Processor</key>
+            <string>AppPkgCreator</string>
+        </dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>path_list</key>
+                <array>
+                    <string>%RECIPE_CACHE_DIR%/payload</string>
+                </array>
+            </dict>
+<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
 	</array>
